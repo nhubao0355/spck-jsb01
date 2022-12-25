@@ -1,0 +1,144 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: sans-serif;
+    background-color: red;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    /* border: 1px solid magenta; */
+    font-weight: bold;
+}
+
+.header {
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: rgb(183, 136, 227);
+    color: white;
+}
+
+.logo {
+    /* border: 1px solid yellow; */
+    margin-left: 5px;
+    width: 20%;
+    text-align: center;
+}
+
+.nav {
+    /* border: 1px solid orange; */
+    margin-right: 5px;
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.home {
+    width: 100%;
+    height: 960px;
+    background-image: url(home.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-top: 50px;
+    color: white;
+    /* border: 1px solid blue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: flex-end; */
+}
+
+.extr {
+    /* border: 1px solid green; */
+    display: flex;
+    text-align: center;
+    font-size: 40px;
+}
+
+.ext {
+    /* border: 1px solid salmon; */
+    display: flex;
+    text-align: center;
+
+}
+
+button {
+
+    background: #f0ffc2;
+    border: none;
+    padding: 5px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.form {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgb(142, 115, 167);
+    padding: 20px 10px;
+    margin: auto;
+    border-radius: 5px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    margin-bottom: 20px;
+}
+
+input:focus {
+    outline: 2px solid #bffff0;
+}
+
+button {
+    background: #f0ffc2;
+    border: none;
+    padding: 5px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.slider {
+    margin-top: 35px;
+}
+
+.container {
+    /* border: 1px solid yellow; */
+    display: flex;
+   background-color: rgb(124, 206, 183);
+}
+
+.aboutus {
+    
+    background-color:rgb(124, 206, 183);
+}
+
+.member {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: #4dc8b3;
+}
